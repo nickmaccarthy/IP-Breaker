@@ -10,7 +10,8 @@
                 color: #222;
                 text-shadow: 0 1px 1px white;
                 font-size: 100%;
-                background: #fff;
+                background: #f3f3f3;
+        
 
 
             }
@@ -21,7 +22,6 @@
 
             #header {
                 width: 100%;
-                background-image: -webkit-linear-gradient(top, #ccc, #eee);
                 line-height: 80px;
                 padding: 0 0 0 5px;
                 margin-bottom: 5px;

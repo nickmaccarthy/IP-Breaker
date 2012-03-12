@@ -37,6 +37,7 @@ Requirements:
 -------------
 * PHP 5+
 * 512 MB RAM
+* IPTools ( http://www.github.com/nickmaccarthy/IPTools/ )
 
 
 Created by <a href="mailto:nickmaccarthy@gmail.com">Nick MacCarthy</a> of <a href="http://www.nickmaccarthy.com">nickmaccarthy.com</a>

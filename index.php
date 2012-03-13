@@ -12,6 +12,16 @@
                 font-size: 100%;
                 background-color: #f3f3f3;
             }
+            
+            a {
+                color: #666;
+            }
+            a:visited {
+                color: #666;
+            }
+            a:hover {
+                color: #000;
+            }
 
             h1 {
                 font-family: Georgia;

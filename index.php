@@ -6,14 +6,19 @@
     <style>
 
             body {
-                font-family: "Raleway", QuicksandBook, Helvetica, serif;
+                font-family: Helvetica, "Helvetica Neue", Arial, sans-serif;
                 color: #222;
-                text-shadow: 0 1px 1px white;
+                text-shadow: 0 1px 2px white;
                 font-size: 100%;
-                background: #f3f3f3;
-        
+                background-color: #f3f3f3;
+            }
 
-
+            h1 {
+                font-family: Georgia;
+                font-weight: bold;
+                color: white;
+                text-shadow: 0px 1px 2px #CCC;
+                font-size: 50px;
             }
 
             input {
@@ -39,6 +44,13 @@
 
             #desc {
                 font-size: 12px;
+                
+            }
+
+            #header_desc {
+                font-size: 20px;
+                color: #ccc;
+                text-shadow: 0 1px 2px white;
             }
     </style>
 
@@ -48,7 +60,7 @@
 <body>
 
     <div id='header'>
-        <h1>IP Breaker | <span id='desc'> Breaks networks or IP ranges into individual hosts </span> </h1>
+        <h1>IP Breaker | <span id='header_desc'> Breaks networks or IP ranges into individual hosts </span> </h1> 
     </div>
 
     <form method='POST' action='form_handler.php'>

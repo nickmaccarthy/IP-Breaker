@@ -36,7 +36,7 @@
                 margin-top: 40px;
             } 
 
-            #ip_input {
+            #ip-input {
                 width: 100%;
                 height: 40%;
                 border:solid 1px;
@@ -47,7 +47,7 @@
                 
             }
 
-            #header_desc {
+            #header-desc {
                 font-size: 20px;
                 color: #ccc;
                 text-shadow: 0 1px 2px white;
@@ -60,12 +60,12 @@
 <body>
 
     <div id='header'>
-        <h1>IP Breaker | <span id='header_desc'> Breaks networks or IP ranges into individual hosts </span> </h1> 
+        <h1>IP Breaker | <span id='header-desc'> Breaks networks or IP ranges into individual hosts </span> </h1> 
     </div>
 
     <form method='POST' action='form_handler.php'>
 
-        <input type='textbox' name='ips' id='ip_input' /> <br />
+        <input type='textbox' name='ips' id='ip-input' /> <br />
         <span id='desc'><strong>Example:</strong> 192.168.1.1, 192.168.20.1-192.168.20-3, 10.0.0.0/24, 10.1/16</span> <br />
         <span id='desc'><strong>Note:</strong> If number of IP's is >= <?=$result_threshold?>, then this app will return a text file containg the results.  You can adjust this threshold in config.php</span></br>
         <div style='float: right;'> <input type='submit' ></div>

@@ -24,7 +24,7 @@
             }
 
             h1 {
-                font-family: Georgia;
+                /*font-family: Georgia;*/
                 font-weight: bold;
                 color: white;
                 text-shadow: 0px 1px 2px #CCC;

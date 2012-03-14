@@ -18,9 +18,9 @@ Usage:
 Put your IPs in the text box comma or space seperated (ex. 192.168.0/24, 10.10.20.1-10.10.20-30, 192.168.40.1, 172.16.32.0/27) and submit.  You will be take to a page containing each /32.
 
 IPs must be in the following format and comma or space seperated before submission:
-* 192.168.1.10              // Single Host
-* 192.168.1.0/24            // Full CIDR
-* 192.168/16                // Shorthand CIDR
+* 192.168.1.10  -- Single Host
+* 192.168.1.0/24  -- Full CIDR
+* 192.168/16 -- Shorthand CIDR
 * 10.10.10.1-10.10.10.30    // Range
 
 Note -- that if the results of your submission return more than what is defined in the defult threshold in config.php (defualt 3000), you will receive a text file back instead of a the resutls in your browser.

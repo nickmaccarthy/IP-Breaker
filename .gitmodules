@@ -1,3 +1,3 @@
 [submodule 'IPTools']
     path = IPTools/
-    url = git@github.com:nickmaccarthy/IPTools.git
+    url = https://github.com/nickmaccarthy/IPTools.git 

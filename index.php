@@ -74,7 +74,7 @@
 
     <form method='POST' action='form_handler.php'>
 
-        <input type='textbox' name='ips' id='ip-input' /> <br />
+        <textarea name='ips' id='ip-input'></textarea> <br />
         <span id='desc'><strong>Example:</strong> 192.168.1.1, 192.168.20.1-192.168.20-3, 10.0.0.0/24, 10.1/16</span> <br />
         <span id='desc'><strong>Note:</strong> If number of IP's is >= <?=$result_threshold?>, then this app will return a text file containg the results.  You can adjust this threshold in config.php</span></br>
         <div style='float: right;'> <input type='submit' ></div>

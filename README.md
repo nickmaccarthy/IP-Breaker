@@ -15,7 +15,7 @@ If given a /32 or individual host, it will return that host back as given.
 
 Usage:
 -------------------
-Put your IPs in the text box comma or space seperated (ex. 192.168.0/24, 10.10.20.1-10.10.20-30, 192.168.40.1, 172.16.32.0/27) and submit.  You will be take to a page containing each /32.
+Put your IPs in the text box comma or space seperated (ex. 192.168.0/24, 10.10.20.1-10.10.20-30, 192.168.40.1, 172.16.32.0/27) and submit.  You will be taken to a page containing each /32.
 
 IPs must be in the following format and comma or space seperated before submission:
 -------------------------------
